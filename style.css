@@ -83,7 +83,7 @@ header {
 }
 
 .escrita1{
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 200px;
 }
 
@@ -109,7 +109,7 @@ header {
     position: relative; /* Para posicionar a imagem corretamente */
    margin-left: 1030px;
     display: flex;
-    margin-top: -350px;
+    margin-top: -400px;
     border-radius: 500px;
     background-color: rgb(237, 237, 237);
   }
@@ -119,9 +119,38 @@ header {
     margin-top: 40px;
     font-size: 20px;
     border-radius: 10px;
-    background-color: rgb(254, 116, 66);
+    background-color: #FE5953;
+    color: #ffffff;
 }
 
 .join-now{
     padding: 5px;
 }
+
+.gamepass{
+    border: 2px solid black;
+}
+
+.gamepass h5{
+   font-size: 23px;
+}
+
+.gamepass:hover{
+    background-color: #0A6870;
+    color: #ffffff;
+}
+
+.div-button{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    min-width: 200px;
+    padding: 12px;
+    margin-top: 150px;  
+}
+
+
+
+
