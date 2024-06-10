@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-* { 
-    padding: 0;
-    margin: 0;
-    font-family: 'inter', sans-serif ;
-}
 
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+  }
 
 header {
     background-color: #ffffff;
@@ -125,6 +126,7 @@ header {
 
 .join-now{
     padding: 5px;
+    
 }
 
 .gamepass{
@@ -151,6 +153,22 @@ header {
     margin-top: 150px;  
 }
 
+.carousel_slide{
+    margin-top: 100px;
+    margin-left: 160px;
+}
 
+.carousel-control-prev-icon{
+   margin-left: 560px;
+   margin-top: 460px;
+    background-color: black;
+    min-height: 32px;
+    min-width: 32px;
+}
 
+.carousel-control-next-icon{
+    margin-left: -530px;
+    margin-top: 460px;
+    background-color: black;
+}
 
